@@ -1,11 +1,21 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">घर</router-link> |
+    <router-link to="/about">बारे में</router-link> |
+    <router-link to="/contact">संपर्क</router-link> |
+    <router-link to="/idea">विचार</router-link>
   </div>
-  <router-view/>
+  <router-view />
+  <Footer />
 </template>
-
+<script>
+import Footer from "@/components/Footer";
+export default {
+  components: {
+    Footer,
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -17,6 +27,8 @@
 
 #nav {
   padding: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #nav a {

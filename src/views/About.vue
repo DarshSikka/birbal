@@ -1,5 +1,10 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>अकबर:</h1>
+    <h3>मुघलों के राजा</h3>
+    <h1>बीरबल</h1>
+    <h3>अकबर के खास दरबारी</h3>
+    <h1>अबदुल खान</h1>
+    <h3>अकबर के खास दरबारी</h3>
   </div>
 </template>
